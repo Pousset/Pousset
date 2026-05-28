@@ -17,7 +17,7 @@ namespace AboutMe
         public string Location    { get; } = "France";
         public int    CodingSince { get; } = 2022;
 
-        public List<string> Languages { get; } = new() { "C#", "Python", "TypeScript" };
+        public List<string> Languages { get; } = new() { "C#", "Python", "React", "SQL" };
 
         public List<string> CurrentlyCreateMod { get; } = new()
         {
