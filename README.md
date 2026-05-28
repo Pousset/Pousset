@@ -1,16 +1,18 @@
-## Hi there 👋
+namespace AboutMe
+{
+    public class Person
+    {
+        public string Name        { get; } = "Mathis";
+        public string Location    { get; } = "France";
+        public int    CodingSince { get; } = 2024;
 
-<!--
-**Pousset/Pousset** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+        public List<string> Languages { get; } = new() { "C#", "Python", "TypeScript" };
 
-Here are some ideas to get you started:
+        public List<string> CurrentlyCreateMod { get; } = new()
+        {
+            "Embedded Systems", "Low-level C"
+        };
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        public string Goal { get; } = "Share my modding tools";
+    }
+}
