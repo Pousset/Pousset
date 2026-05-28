@@ -1,7 +1,18 @@
+<div align="center">
+
+# BlopBlop
+
+<a href="https://github.com/Pousset"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+&nbsp;
+<a href="https://discord.com/users/Pousset_"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"/></a>
+
+</div>
+
+---
+
+```csharp
 namespace AboutMe
 {
-    public class Person
-    {
         public string Name        { get; } = "Mathis";
         public string Location    { get; } = "France";
         public int    CodingSince { get; } = 2024;
@@ -15,4 +26,4 @@ namespace AboutMe
 
         public string Goal { get; } = "Share my modding tools";
     }
-}
+```
