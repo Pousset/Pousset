@@ -15,7 +15,7 @@ namespace AboutMe
 {
         public string Name        { get; } = "Mathis";
         public string Location    { get; } = "France";
-        public int    CodingSince { get; } = 2024;
+        public int    CodingSince { get; } = 2022;
 
         public List<string> Languages { get; } = new() { "C#", "Python", "TypeScript" };
 
